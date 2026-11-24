@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-multipart
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+langchain-groq
+faiss-cpu
+fastembed
+pypdf
+python-docx
+openpyxl
+pandas
+python-dotenv

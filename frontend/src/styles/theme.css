@@ -1,0 +1,80 @@
+:root {
+  /* ── Black & Yellow Corporate Palette ── */
+  --green-darkest: #0a0a0a;
+  --green-dark: #111111;
+  --green-primary: #1a1a1a;
+  --green-medium: #242424;
+  --green-light: #2e2e2e;
+  --green-subtle: #f5f0d8;
+  --green-tint: #ede8c8;
+
+  /* Yellow / Gold Accents */
+  --gold-primary: #f5c400;
+  --gold-warm: #e0b000;
+  --gold-bright: #ffe033;
+  --gold-light: #fff8cc;
+  --gold-subtle: #fffae6;
+  --gold-border: #f5c400;
+  --gold-dark: #7a5f00;
+  --gold-shadow: rgba(245, 196, 0, 0.30);
+
+  /* Surfaces */
+  --white: #ffffff;
+  --white-soft: #fdfdf8;
+  --white-pearl: #f7f6ee;
+  --neutral-border: #e0d89a;
+  --neutral-border-light: #ede8c8;
+
+  /* Text */
+  --text-primary: #0a0a0a;
+  --text-secondary: #2e2e2e;
+  --text-muted: #666650;
+  --text-on-dark: #f5c400;
+  --text-gold: #7a5f00;
+
+  /* Status Colors */
+  --status-risk-bg: #fff8cc;
+  --status-risk-border: #f5c400;
+  --status-risk-text: #7a5f00;
+
+  --status-delayed-bg: #fee2e2;
+  --status-delayed-border: #ef4444;
+  --status-delayed-text: #991b1b;
+
+  --status-ontrack-bg: #dcfce7;
+  --status-ontrack-border: #22c55e;
+  --status-ontrack-text: #166534;
+
+  /* Shadows & Radii */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.10);
+  --shadow-md: 0 4px 10px rgba(0, 0, 0, 0.14);
+  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.20);
+  --shadow-gold: 0 4px 14px rgba(245, 196, 0, 0.30);
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-full: 9999px;
+
+  --transition: all 0.2s ease-in-out;
+}
+
+.risk-app {
+  min-height: 100vh;
+  background-color: var(--white-pearl);
+  color: var(--text-primary);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+.risk-content {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 32px 24px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
